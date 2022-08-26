@@ -2,7 +2,7 @@ import { twMerge } from 'tailwind-merge'
 
 function SectionWrapper({ children, className, id }) {
   const mergedClassName = twMerge(
-    'overflow-hidden relative w-full text-black bg-gray',
+    'overflow-hidden relative w-full text-black bg-gray h-full',
     className
   )
 

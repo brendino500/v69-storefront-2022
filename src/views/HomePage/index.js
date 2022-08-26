@@ -8,10 +8,10 @@ function HomePage() {
   return (
     <div>
       <HeroSection />
-      <AboutSection />
+      {/* <AboutSection />
       <ShopSection />
       <WholesaleSection />
-      <LearnSection />
+      <LearnSection /> */}
     </div>
   )
 }
