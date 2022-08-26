@@ -8,14 +8,14 @@ import logoWhite from '../../../../public/logo-white.png'
 
 function HeroSection() {
   return (
-    <SectionWrapper id="hero" className="h-[600px]">
+    <SectionWrapper id="hero" className="h-[600px] bg-black">
       <Image
         src={heroBg}
         layout="fill"
         objectFit="cover"
         objectPosition="85%"
       />
-      <div className="absolute w-full h-full flex items-center justify-center">
+      <div className="absolute w-full h-full flex items-center justify-center max-w-screen-3xl">
         <div className="flex items-center justify-center flex-col absolute right-14">
           <Image src={logoWhite} height={200} width={200} />
           <Button className="w-60 my-10">Shop</Button>

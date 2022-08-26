@@ -26,6 +26,9 @@ module.exports = {
       dropShadow: {
         default: '1px 6px 6px #000000',
       },
+      screens: {
+        '3xl': '1440px',
+      },
     },
   },
   plugins: [],

@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 function Button({ href, onClick, children, className, secondary }) {
   const buttonStyle = secondary ? 'btn-secondary' : 'btn-primary'
   const sharedClassName = twMerge(
-    'text-body text-center h-10 w-80 uppercase tracking-widest rounded-md hover:rounded-none drop-shadow-default hover:transition-all hover:duration-300',
+    'text-body text-center h-10 w-80 uppercase tracking-widest rounded-md hover:rounded-none hover:transition-all hover:duration-500',
     buttonStyle,
     className
   )

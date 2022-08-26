@@ -4,7 +4,7 @@ import Title from '@/components/Title'
 
 function WholesaleSection() {
   return (
-    <SectionWrapper id="shop">
+    <SectionWrapper id="shop" className="h-[400px]">
       <Title element="h2">wholesale</Title>
       <Button className="" secondary>
         shop
