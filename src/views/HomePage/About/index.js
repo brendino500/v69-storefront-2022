@@ -28,10 +28,10 @@ function AboutSection() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="flex items-start justify-start flex-row">
-            <Button secondary className="w-[200px] mx-4">
+            <Button secondary className="w-[200px] mx-4 hover:duration-1000">
               About
             </Button>
-            <Button secondary className="w-[200px] mx-4">
+            <Button secondary className="w-[200px] mx-4 hover:duration-1000">
               Visit
             </Button>
           </div>

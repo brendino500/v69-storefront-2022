@@ -30,6 +30,6 @@ module.exports = {
         '3xl': '1440px',
       },
     },
+    plugins: [],
   },
-  plugins: [],
 }

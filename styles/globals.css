@@ -24,6 +24,6 @@ a {
     @apply  bg-galliano text-black hover:bg-galliano-300
   }
   .btn-secondary {
-    @apply flex items-center justify-center bg-white border border-black hover:border-none hover:text-white hover:bg-black 
+    @apply flex items-center justify-center border bg-white border-black hover:border-none hover:text-white hover:bg-black hover:transition-all hover:duration-1000
   }
 }
