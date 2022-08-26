@@ -6,7 +6,9 @@ function WholesaleSection() {
   return (
     <SectionWrapper id="shop">
       <Title element="h2">wholesale</Title>
-      <Button className="">shop</Button>
+      <Button className="" secondary>
+        shop
+      </Button>
     </SectionWrapper>
   )
 }
