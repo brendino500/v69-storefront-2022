@@ -9,7 +9,7 @@ import v60Img from '../../../../public/v60.jpg'
 function LearnSection() {
   return (
     <SectionWrapper
-      id="shop"
+      id="learn"
       className="h-[600px] w-full flex items-center justify-center"
     >
       <div className="m-8 flex">

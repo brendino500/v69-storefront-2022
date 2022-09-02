@@ -8,7 +8,7 @@ import coffeeBg from '../../../../public/espresso-jug.jpg'
 
 function WholesaleSection() {
   return (
-    <SectionWrapper id="shop" className="h-[600px] bg-black">
+    <SectionWrapper id="wholesale" className="h-[600px] bg-black">
       <div className="absolute h-[600px] w-full bg-gradient-to-r from-black/70 via-black to-transparent left-0">
         <Image
           src={coffeeBg}
