@@ -28,7 +28,10 @@ function LearnSection() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="flex items-start justify-start flex-row">
-            <Button secondary className="w-[400px] mx-4 hover:duration-1000">
+            <Button
+              secondary="true"
+              className="w-[400px] mx-4 hover:duration-1000"
+            >
               Brewing Guides
             </Button>
           </div>
