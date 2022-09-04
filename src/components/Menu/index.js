@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import { IoCartOutline, IoSearchOutline } from 'react-icons/io5'
 
+import logo from '../../../public/logo-black.png'
+
 function Menu() {
   const menuItems = ['Home', 'Shop', 'About', 'Visit', 'Learn', 'Wholesale']
   return (
     <nav className="flex align-center justify-between sticky top-0 bg-white h-12 z-50">
-      <div>
-        <Image />
-      </div>
+      <Image src={logo} alt="V69 Logo" height="48px" width="48px" />
       <ul className="flex flex-row align-center font-title justify-around m-3 w-6/12">
         <a href="#hero">
           <li>Home</li>
