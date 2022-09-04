@@ -20,7 +20,7 @@ function AboutSection() {
           <Title element="h2" className="">
             {title}
           </Title>
-          <p className="text-body my-8 text-justify">{content}</p>
+          <p className="font-body my-8 text-justify">{content}</p>
           <div className="flex items-start justify-start flex-row">
             <Button
               secondary="true"

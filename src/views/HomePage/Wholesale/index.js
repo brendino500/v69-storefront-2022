@@ -28,7 +28,7 @@ function WholesaleSection() {
           <Title element="h2" className="text-white">
             {title}
           </Title>
-          <p className="text-body my-8 text-justify text-white">{content}</p>
+          <p className="font-body my-8 text-justify text-white">{content}</p>
           <Button secondary="true">{cta}</Button>
         </div>
       </div>
