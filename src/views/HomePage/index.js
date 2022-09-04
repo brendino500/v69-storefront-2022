@@ -11,7 +11,7 @@ function HomePage() {
       <AboutSection />
       {/* <ShopSection /> */}
       <WholesaleSection />
-      {/* <LearnSection /> */}
+      <LearnSection />
     </div>
   )
 }
