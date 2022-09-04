@@ -5,8 +5,10 @@ import Title from '@/components/Title'
 import Button from '@/components/Button'
 
 import coffeeImage from '../../../../public/coffee-cup.jpg'
+import data from '@/data/HomePage/aboutSection.json'
 
 function AboutSection() {
+  const { title, content, ctaAbout, ctaVisit } = data
   return (
     <SectionWrapper
       id="about"
@@ -16,29 +18,21 @@ function AboutSection() {
         <Image src={coffeeImage} alt="Coffee splash" height={400} width={400} />
         <div className="flex items-center justify-content flex-col w-[600px] mx-10">
           <Title element="h2" className="">
-            Welcome to V69
+            {title}
           </Title>
-          <p className="text-body my-8 text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <p className="text-body my-8 text-justify">{content}</p>
           <div className="flex items-start justify-start flex-row">
             <Button
               secondary="true"
               className="w-[200px] mx-4 hover:duration-1000"
             >
-              About
+              {ctaAbout}
             </Button>
             <Button
               secondary="true"
               className="w-[200px] mx-4 hover:duration-1000"
             >
-              Visit
+              {ctaVisit}
             </Button>
           </div>
         </div>
