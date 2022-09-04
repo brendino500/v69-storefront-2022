@@ -9,7 +9,7 @@ function Menu() {
         <Image />
       </div>
       <ul className="flex flex-row align-center font-title justify-around m-3 w-6/12">
-        <a href="#home">
+        <a href="#hero">
           <li>Home</li>
         </a>
         <a href="#shop">

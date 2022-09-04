@@ -8,8 +8,11 @@ import coffeeBg from '../../../../public/espresso-jug.jpg'
 
 function WholesaleSection() {
   return (
-    <SectionWrapper id="wholesale" className="h-[600px] bg-black">
-      <div className="absolute h-[600px] w-full bg-gradient-to-r from-black/70 via-black to-transparent left-0">
+    <SectionWrapper
+      id="wholesale"
+      className="h-[600px] bg-black flex items-center justify-center w-full"
+    >
+      <div className="absolute h-[600px] w-full max-w-[1440px] flex items-center justify-center mx-8">
         <Image
           src={coffeeBg}
           layout="fill"
@@ -17,8 +20,8 @@ function WholesaleSection() {
           objectPosition="100% center"
         />
       </div>
-      <div className="absolute">
-        <div className="flex items-center justify-center flex-col w-1/2 mx-4 h-[600px]">
+      <div className="absolute max-w-[1440px]">
+        <div className="flex items-center justify-center flex-col w-1/2 mx-8 h-[600px]">
           <Title element="h2" className="text-white">
             Wholesale
           </Title>
