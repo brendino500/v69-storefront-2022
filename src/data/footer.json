@@ -1,0 +1,23 @@
+{
+  "follow": "Follow Us",
+  "socialLink": "https://www.instagram.com/v69_coffee/",
+  "externalLinks": [
+    {
+      "item": "Privacy Policy",
+      "link": ""
+    },
+        {
+      "item": "Refund Policy",
+      "link": ""
+    },
+        {
+      "item": "Shopping Policy",
+      "link": ""
+    },
+        {
+      "item": "Terms Of Service",
+      "link": ""
+    }
+  ],
+  "copyright": "© V69 Coffee. All rights reserved"
+}
