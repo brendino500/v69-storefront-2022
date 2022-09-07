@@ -12,20 +12,21 @@ function LearnSection() {
 
   return (
     <SectionWrapper
-      id="learn"
-      className="h-[600px] w-full flex items-center justify-center"
+      id="about"
+      className="min-h-[650px] flex items-center justify-center"
     >
       <div className="m-8 flex">
-        <Image src={v60Img} alt="V60" height={400} width={400} />
-        <div className="flex items-center justify-content flex-col w-[600px] mx-10">
-          <Title element="h2" className="">
-            {title}
-          </Title>
-          <p className="font-body my-8 text-justify">{content}</p>
-          <div className="flex items-start justify-start flex-row">
+        <div className="hidden h-[400px] w-[400px] lg:block">
+          <Image src={v60Img} alt="Coffee splash" height={400} width={400} />
+        </div>
+
+        <div className="flex items-center justify-center flex-col w-full lg:w-[600px] mx-10">
+          <Title element="h2">{title}</Title>
+          <p className="font-body my-8 text-justify text-base">{content}</p>
+          <div className="flex items-center justify-start flex-col md:flex-row">
             <Button
               secondary="true"
-              className="w-[400px] mx-4 hover:duration-1000"
+              className="w-[200px] my-2 md:my-0 mx-4 hover:duration-1000"
             >
               {cta}
             </Button>
