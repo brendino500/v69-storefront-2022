@@ -13,7 +13,7 @@ function Footer() {
         <a href={socialLink} className="my-4">
           <FaInstagram className="h-[40px] w-[40px]" />
         </a>
-        <div className="flex flex-row my-4">
+        <div className="flex flex-col md:flex-row my-4">
           {externalLinks.map((link) => (
             <ol key={link.link} className="mx-8">
               <a href={link.link}>{link.item}</a>
