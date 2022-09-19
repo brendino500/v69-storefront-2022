@@ -32,6 +32,7 @@ function AboutSection() {
           <div className="flex items-center justify-start flex-col md:flex-row">
             {buttonText.map((cta) => (
               <Button
+                href="about"
                 secondary="true"
                 className="w-[200px] my-2 md:my-0 mx-4 hover:duration-1000"
                 key={cta}

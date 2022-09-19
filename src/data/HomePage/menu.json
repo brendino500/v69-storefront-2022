@@ -6,19 +6,19 @@
     }, 
     {
       "title": "Shop",
-      "link": "#shop"
+      "link": "shop"
     }, 
     {
       "title": "About",
-      "link": "#about"
+      "link": "about"
     }, 
     {
       "title": "Learn",
-      "link": "#learn"
+      "link": "learn"
     }, 
     {
       "title": "Wholesale",
-      "link": "#wholesale"
+      "link": "wholesale"
     }
   ]
 }

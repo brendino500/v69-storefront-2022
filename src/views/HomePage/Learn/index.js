@@ -25,6 +25,7 @@ function LearnSection() {
           <p className="font-body my-8 text-justify text-base">{content}</p>
           <div className="flex items-center justify-start flex-col md:flex-row">
             <Button
+              href="learn"
               secondary="true"
               className="w-[200px] my-2 md:my-0 mx-4 hover:duration-1000"
             >

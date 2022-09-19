@@ -18,7 +18,9 @@ function HeroSection() {
       <div className="absolute w-full h-full flex items-center justify-center max-w-screen-3xl">
         <div className="flex items-center justify-center flex-col absolute right-14">
           <Image src={logoWhite} height={200} width={200} />
-          <Button className="w-60 my-10">Shop</Button>
+          <Button href="shop" className="w-60 my-10">
+            Shop
+          </Button>
         </div>
       </div>
     </SectionWrapper>

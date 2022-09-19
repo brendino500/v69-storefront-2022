@@ -26,7 +26,7 @@ function WholesaleSection() {
             {title}
           </Title>
           <p className="font-body my-8 text-justify text-white">{content}</p>
-          <Button secondary="true" className="w-[200px]">
+          <Button secondary="true" className="w-[200px]" href="wholesale">
             {cta}
           </Button>
         </div>
