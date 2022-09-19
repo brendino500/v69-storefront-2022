@@ -13,23 +13,22 @@ function WholesaleSection() {
   return (
     <SectionWrapper
       id="wholesale"
-      className="h-[600px] bg-black flex items-center justify-center w-full"
+      className="min-h-[650px] bg-black flex items-center justify-center w-full"
     >
-      <div className="absolute h-[600px] w-full max-w-[1440px] flex items-center justify-center mx-8">
-        <Image
-          src={coffeeBg}
-          layout="fill"
-          objectFit="contain"
-          objectPosition="100% center"
-        />
-      </div>
-      <div className="absolute max-w-[1440px]">
-        <div className="flex items-center justify-center flex-col w-1/2 mx-8 h-[600px]">
+      <Image
+        src={coffeeBg}
+        layout="fill"
+        className="brightness-50 object-cover object-center lg:object-contain lg:brightness-100 lg:object-right"
+      />
+      <div className="absolute max-w-[1440px] w-full my-8 mx-10">
+        <div className="flex items-center justify-center flex-col lg:w-1/2 mx-10">
           <Title element="h2" className="text-white">
             {title}
           </Title>
           <p className="font-body my-8 text-justify text-white">{content}</p>
-          <Button secondary="true">{cta}</Button>
+          <Button secondary="true" className="w-[200px]">
+            {cta}
+          </Button>
         </div>
       </div>
     </SectionWrapper>
